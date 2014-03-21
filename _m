@@ -1,0 +1,4 @@
+#!/bin/bash
+
+make -j3 ARCH=arm CROSS_COMPILE=/home/misi/android_cm/cm10.2/prebuilt/linux-x86/toolchain/arm-eabi-4.4.3/bin/arm-eabi- $1
+
